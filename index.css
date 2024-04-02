@@ -37,7 +37,7 @@ body {
 
 .logo {
     position: absolute;
-    /* top: 51px; */
+    top: -1px; 
     left: 170px;
   }
   
@@ -470,4 +470,104 @@ span{
   /* text-align: center; */
   padding:15%;
   border-right: 1px solid #696F79;
+}
+
+.footer-section{
+  height: 276.81px;
+}
+
+.footer-heading{
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  gap:25%;
+}
+
+.foot-desc{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px 50px 0px;
+  width:30vw;
+  /* border:1px solid #FFFFFF; */
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  
+}
+
+.call-us{
+  margin-bottom: 20px;
+  color:#80848B;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing:3px;
+}
+
+.whatsapp-logo{
+  width:30px
+}
+
+.whatsapp-num{
+  margin-left: 8px;
+  color:#DADADA;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing:3px;
+}
+
+.icons{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height:32.81px;
+  width:262.89px;
+}
+
+.down-line{
+  margin-left: 140px;
+  margin-right: 140px;
+  background-color: #8D8D8D;
+  border: 0px;
+  height: 1px;
+}
+
+.end-text{
+  margin-top: 30px ;
+  text-align: center;
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing:3px;
+  opacity: 70%;
+}
+
+.facebook-icon:hover {
+  content: url(./Assets/facebook\ pink\ .svg);
+}
+
+.insta-icon:hover{
+  content: url(./Assets/insta\ pink.svg);
+}
+
+.linkedin-icon:hover{
+  content: url(./Assets/linkedin\ pink.svg);
+}
+
+.Whatsapp-icon:hover{
+  content: url(./Assets/whatsapp\ pink.svg);
+}
+
+.X-icon:hover{
+  content: url(./Assets/x\ pink.svg);
+}
+
+.up-line{
+  margin-left:210px;
+  margin-right:210px;
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, rgba(141, 141, 141, 0) 0%, rgba(141, 141, 141, 1) 50%, rgba(202, 194, 194, 0) 100%);
 }
